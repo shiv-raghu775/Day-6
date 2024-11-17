@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#ffff, #dfbef1, #cde0fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 95vh;
+    width: 75vw;
+    border: 4px inset #976a6781;
+    border-radius: 40px;
+    background-color: #fff3f356;
+    padding: 1.5rem 2rem;
+}
+
+.box header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+
+}
+
+.box header .logo{
+    display: flex;
+    align-items: center;
+}
+.box header .logo img{
+    width: 2.5rem;
+    padding: 0 3px;
+    
+}
+.box header .logo h1{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.box header ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9ea2af;
+}
+
+.box header button{
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+
+    background-color: #09243d;
+}
+
+.box::after{
+    content: "EXPLORE  BEUTYFUL  PLACES";
+    margin-top:0;
+    padding-top: 2rem;
+    transform: translateY(-13rem);
+    position: relative;
+    color: rgba(0, 0, 0, 0.555);
+    width: 69vw;
+    height: 14vw;
+    border-radius: 40px;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2507738735/display_1500/stock-photo-panoramic-empire-pass-summer-landscape-in-wasatch-mountains-in-park-city-utah-usa-2507738735.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    word-spacing: 5px;
+    
+    
+    
+    
+}
+
+.box .data{
+    height: 5rem;
+    width: 60vw;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 5vw;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px rgba(9, 4, 4, 0.1);
+    z-index: 100;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 4rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.box .data .info{
+    border-right: 1px solid black;
+    padding-right: 1rem;
+    
+}
+
+.box .data .info h5{
+    color: #9ea2af;
+    
+}
+.box .data .info h4{
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.box .data button{
+    padding: 1.8vh 2vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #082137;
+    color: white;
+    
+    
+}
+
+.box .data button p{
+    rotate: -40deg;
+    font-size: 20px;
+    
+}
+
+.box .buttons{
+    position: relative;
+    top: 45vh;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    
+    
+}
+
+.box .buttons button{
+    padding: 1vh 1.5vw;
+    border-radius: 30px;
+    border: 1.5px solid #83c0e5;
+    background: none;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.265);
+}
+
+.box .buttons button img{
+    width: 1vw;
+}
+
+.box .visit{
+    height: 32vh;
+    width: 69vw;
+    /* background-color: rgb(3, 30, 30); */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 46vh;
+    padding-top: 1px;
+    
+}
+
+.box .visit .img1{
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.292);
+
+
+}
+
+.box .visit .img1 img{
+    width: 99%;
+    height: 70%;
+    border-radius: 15PX;
+}
+
+.box .visit .img1 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+    padding: 0 3%;
+    padding-right: 9% ;
+}
+
+.box .visit .img1 div button{
+    padding: 2% 3%;
+    background-color: #ffe6de;
+    color: #ff5600;
+    border: none;
+    border-radius: 10px;
+}
+
+.box .visit .img2{
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.292);
+}
+
+.box .visit .img2 img{
+    width: 99%;
+    height: 70%;
+    border-radius: 15PX;
+}
+
+.box .visit .img2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+    padding: 0 3%;
+    padding-right: 9% ;
+}
+
+.box .visit .img2 div button{
+    padding: 2% 3%;
+    background-color: #ffe6de;
+    color: #ff5600;
+    border: none;
+    border-radius: 10px;
+}
+.box .visit .img3{
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.292);
+}
+
+.box .visit .img3 img{
+    width: 99%;
+    height: 70%;
+    border-radius: 15PX;
+}
+
+.box .visit .img3 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+    padding: 0 3%;
+    padding-right: 9% ;
+}
+
+.box .visit .img2 div button{
+    padding: 2% 3%;
+    background-color: #ffe6de;
+    color: #ff5600;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
